@@ -10,16 +10,22 @@ Introduced controlled network faults and applied step by step troubleshooting me
 Devices Used
 - 1 Cisco 2960 Switch
 - 1 Cisco 1941 Router
-- 6 End Devices PCs (2 End Devices for each VLAN)
+- Assigned 2 End Devices to each VLAN
 
 Topology Design
+```
+VLAN 10 HR
+PC0 HR
+PC1 HR 2
 
-PC0 assigned to VLAN 10
+VLAN 20 IT
+PC2 IT
+PC3 IT 2
 
-PC1 assigned to VLAN 20
-
-PC2 assigned to VLAN 30
-
+VLAN 30 Finance
+PC4 Finance
+PC5 Finance 2
+```
 Switch connected to router through trunk link FastEthernet0/24 to GigabitEthernet0/0
 
 Router configured with subinterfaces for inter VLAN routing
