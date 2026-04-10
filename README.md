@@ -56,8 +56,8 @@ Baseline Validation
 ### Scenario 1 Wrong VLAN Assignment
 Moved PC0 to an incorrect VLAN causing loss of expected network membership and communication failure
 
-Screenshot Placeholder Wrong VLAN Assignment
-![Wrong VLAN Assignment](./screenshots/wrong-vlan.png)
+Wrong VLAN Assignment
+![Wrong VLAN Assignment](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165150.png)
 
 ### Scenario 2 Wrong IP Address
 Changed PC2 addressing to an invalid network value
