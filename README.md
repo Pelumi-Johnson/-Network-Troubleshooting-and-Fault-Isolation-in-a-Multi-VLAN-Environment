@@ -27,7 +27,7 @@ Router configured with subinterfaces for inter VLAN routing
 ACLs present from prior configuration
 
 Screenshot Placeholder Topology
-![Network Topology](./screenshots/topology.png)
+![Network Topology](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-10%20144822.png)
 
 ## Configuration Baseline
 Verified baseline operation before fault introduction
