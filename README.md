@@ -61,18 +61,22 @@ Wrong VLAN Assignment
 
 ### Scenario 2 Wrong IP Address
 Changed PC2 addressing to an invalid network value
+```
+From 
+192.168.20.4
 
+To 
 192.168.50.10
-
+```
 Result
 PC2 could no longer communicate with intended VLAN segments due to subnet mismatch
 
-Wrong IP
----
 Correct IP Configuration
-![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
 ---
+![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
+
 Misconfigured IP Causing Failure
+---
 ![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165323.png)
 
 ### Scenario 3 Trunk Removal
