@@ -42,6 +42,8 @@ Confirmed VLAN assignment trunk status router subinterfaces IP addressing defaul
 
 Baseline Validation
 ![Baseline Validation](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20164953.png)
+![Baseline Validation](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20164953.png)
+![Baseline Validation](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-10%20151102.png)
 ![Baseline Validation](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-10%20151102.png)
 
 ## Fault Injection
