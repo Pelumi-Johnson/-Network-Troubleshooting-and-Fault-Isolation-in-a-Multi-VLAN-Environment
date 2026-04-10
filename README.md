@@ -67,8 +67,13 @@ Changed PC2 addressing to an invalid network value
 Result
 PC2 could no longer communicate with intended VLAN segments due to subnet mismatch
 
-Screenshot Placeholder Wrong IP
-![Wrong IP](./screenshots/wrong-ip.png)
+Wrong IP
+---
+Correct IP Configuration
+![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
+---
+Misconfigured IP Causing Failure
+![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
 
 ### Scenario 3 Trunk Removal
 Removed trunk configuration from the switch uplink preventing VLAN tagged traffic from reaching the router
