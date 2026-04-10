@@ -73,7 +73,7 @@ Correct IP Configuration
 ![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
 ---
 Misconfigured IP Causing Failure
-![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
+![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165323.png)
 
 ### Scenario 3 Trunk Removal
 Removed trunk configuration from the switch uplink preventing VLAN tagged traffic from reaching the router
