@@ -31,6 +31,7 @@ Topology
 
 ## Configuration Baseline
 Verified baseline operation before fault introduction
+
 Confirmed VLAN assignment trunk status router subinterfaces IP addressing default gateways and ACL behavior were functioning as expected
 
 Screenshot Placeholder Baseline Validation
