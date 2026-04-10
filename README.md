@@ -81,15 +81,15 @@ Misconfigured IP Causing Failure
 
 ### Scenario 3 Trunk Removal
 Removed trunk configuration from the switch uplink preventing VLAN tagged traffic from reaching the router
-
+```
 enable
 configure terminal
 interface fastEthernet 0/24
 no switchport mode trunk
 exit
-
-Screenshot Placeholder Trunk Failure
-![Trunk Failure](./screenshots/trunk-failure.png)
+```
+Trunk Failure
+![Trunk Failure](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165434.png)
 
 ### Scenario 4 Wrong Default Gateway
 Configured an incorrect gateway on the end device preventing traffic from being routed outside the local subnet
@@ -107,19 +107,19 @@ Screenshot Placeholder Missing dot1Q
 
 ### Initial Connectivity Testing
 Used ping testing to verify communication failure and establish symptom scope
-
+```
 ping 192.168.10.10
 ping 192.168.20.10
 ping 192.168.30.10
-
+```
 Screenshot Placeholder Ping Failure
 ![Ping Failure](./screenshots/ping-failure.png)
 
 ### VLAN Verification
 Checked switch VLAN membership to confirm ports were assigned to correct VLANs
-
+```
 show vlan brief
-
+```
 Screenshot Placeholder VLAN Check
 ![Show VLAN Brief](./screenshots/show-vlan-brief.png)
 
@@ -141,9 +141,9 @@ Screenshot Placeholder Router Check
 
 ### ACL Verification
 Reviewed ACL entries to confirm traffic filtering behavior was not the cause of unintended failures
-
+```
 show access-lists
-
+```
 Screenshot Placeholder ACL Check
 ![Show Access Lists](./screenshots/show-access-lists.png)
 
@@ -176,13 +176,13 @@ Screenshot Placeholder IP Fix
 
 ### Fix 3 Restored Trunk Link
 Re enabled trunking on the switch uplink to resume transport of multiple VLANs
-
+```
 enable
 configure terminal
 interface fastEthernet 0/24
 switchport mode trunk
 exit
-
+```
 Screenshot Placeholder Trunk Fix
 ![Trunk Fix](./screenshots/trunk-fix.png)
 
@@ -194,23 +194,23 @@ Screenshot Placeholder Gateway Fix
 
 ### Fix 5 Reapplied dot1Q Encapsulation
 Restored VLAN tagging on the router subinterface to correctly process VLAN traffic
-
+```
 enable
 configure terminal
 interface gigabitEthernet 0/0.10
 encapsulation dot1Q 10
 exit
-
+```
 Screenshot Placeholder dot1Q Fix
 ![dot1Q Fix](./screenshots/dot1q-fix.png)
 
 ## Validation
 Retested connectivity after each correction to confirm restoration of expected communication paths
-
+```
 ping 192.168.10.10
 ping 192.168.20.10
 ping 192.168.30.10
-
+```
 Result
 Connectivity restored across all intended VLAN paths following correction of each fault
 
