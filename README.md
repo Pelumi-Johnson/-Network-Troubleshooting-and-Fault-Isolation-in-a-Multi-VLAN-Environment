@@ -97,6 +97,9 @@ Configured an incorrect gateway on the end device preventing traffic from being 
 Wrong Gateway
 ![Wrong Gateway](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165622.png)
 
+Connectivity Failure Due to Incorrect Gateway
+![Ping Failure](./screenshots/ping-failure.png)
+
 ### Scenario 5 Missing dot1Q Encapsulation
 Removed VLAN encapsulation from a router subinterface preventing VLAN traffic from being identified correctly
 
@@ -201,7 +204,7 @@ Screenshot Placeholder Trunk Fix
 Updated the affected host with the correct gateway to restore routed communication
 
 Screenshot Placeholder Gateway Fix
-![Gateway Fix](./screenshots/gateway-fix.png)
+![Gateway Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165629.png)
 
 ### Fix 5 Reapplied dot1Q Encapsulation
 Restored VLAN tagging on the router subinterface to correctly process VLAN traffic
