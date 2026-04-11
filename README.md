@@ -94,13 +94,13 @@ Trunk Failure
 ### Scenario 4 Wrong Default Gateway
 Configured an incorrect gateway on the end device preventing traffic from being routed outside the local subnet
 
-Screenshot Placeholder Wrong Gateway
+Wrong Gateway
 ![Wrong Gateway](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165622.png)
 
 ### Scenario 5 Missing dot1Q Encapsulation
 Removed VLAN encapsulation from a router subinterface preventing VLAN traffic from being identified correctly
 
-Screenshot Placeholder Missing dot1Q
+Missing dot1Q
 ![Missing dot1Q](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165856.png)
 
 ## Troubleshooting Process
