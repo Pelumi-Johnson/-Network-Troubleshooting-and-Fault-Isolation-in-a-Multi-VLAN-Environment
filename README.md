@@ -169,6 +169,9 @@ Corrected VLAN Assignment on Switch Port
 VLAN Table Verification After Restoration
 ![Show VLAN Brief](./screenshots/show-vlan-brief.png)
 
+Verified End to End Connectivity Using ICMP
+![Ping Success](./screenshots/ping-success.png)
+
 ### Fix 2 Corrected IP Addressing
 Reconfigured PC2 with a valid IP address matching the VLAN 30 subnet
 
