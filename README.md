@@ -123,7 +123,7 @@ Checked switch VLAN membership to confirm ports were assigned to correct VLANs
 show vlan brief
 ```
 Screenshot Placeholder VLAN Check
-![Show VLAN Brief](./screenshots/show-vlan-brief.png)
+![Show VLAN Brief](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20021000.png)
 
 ### Trunk Verification
 Inspected trunk link status to verify VLAN traffic was permitted between switch and router
