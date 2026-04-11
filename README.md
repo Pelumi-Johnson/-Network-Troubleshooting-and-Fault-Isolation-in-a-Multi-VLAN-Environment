@@ -110,7 +110,7 @@ Missing dot1Q
 ### Initial Connectivity Testing
 Used ping testing to verify communication failure and establish symptom scope
 ```
-ping 192.168.10.10
+ping 192.168.10.2
 ping 192.168.20.10
 ping 192.168.30.10
 ```
