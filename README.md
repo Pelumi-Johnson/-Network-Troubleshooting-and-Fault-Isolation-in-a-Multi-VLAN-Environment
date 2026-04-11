@@ -114,8 +114,8 @@ ping 192.168.10.2
 ping 192.168.20.10
 ping 192.168.30.10
 ```
-Screenshot Placeholder Ping Failure
-![Ping Failure](./screenshots/ping-failure.png)
+Ping Failure
+![Ping Failure](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20212245.png)
 
 ### VLAN Verification
 Checked switch VLAN membership to confirm ports were assigned to correct VLANs
@@ -220,13 +220,12 @@ Screenshot Placeholder Final Ping Test
 ![Final Ping Test](./screenshots/final-ping-test.png)
 
 ## Key Concepts Applied
-Structured troubleshooting using symptom based isolation
-VLAN membership verification and port assignment control
-IP subnet and default gateway validation
-802.1Q trunk dependency for router on a stick operation
-Router subinterface verification and encapsulation integrity
-ACL review as part of layered troubleshooting
-Path based fault isolation from endpoint to destination
+- Structured troubleshooting using symptom based isolation
+- VLAN membership verification and port assignment control
+- IP subnet and default gateway validation
+- 802.1Q trunk dependency for router on a stick operation
+- Router subinterface verification and encapsulation integrity
+- Path based fault isolation from endpoint to destination
 
 ## Outcome
 Executed controlled fault simulation and restoration across a multi VLAN network, demonstrating the ability to isolate and resolve configuration failures using a repeatable troubleshooting process. Delivered a validated network recovery workflow aligned with real world operational support and network engineering practice.
