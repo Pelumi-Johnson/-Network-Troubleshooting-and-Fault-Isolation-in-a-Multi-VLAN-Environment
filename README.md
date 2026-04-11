@@ -101,7 +101,7 @@ Screenshot Placeholder Wrong Gateway
 Removed VLAN encapsulation from a router subinterface preventing VLAN traffic from being identified correctly
 
 Screenshot Placeholder Missing dot1Q
-![Missing dot1Q](./screenshots/missing-dot1q.png)
+![Missing dot1Q](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165856.png)
 
 ## Troubleshooting Process
 
