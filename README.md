@@ -97,6 +97,8 @@ Configured an incorrect gateway on the end device preventing traffic from being 
 Wrong Gateway
 ![Wrong Gateway](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165622.png)
 
+---
+
 Connectivity Failure Due to Incorrect Gateway
 ![Ping Failure](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20213237.png)
 
