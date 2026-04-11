@@ -163,8 +163,11 @@ Faults were isolated based on where communication stopped rather than through gu
 ### Fix 1 Corrected VLAN Assignment
 Returned PC0 interface to the intended VLAN restoring proper Layer 2 membership
 
-Screenshot Placeholder VLAN Fix
+Corrected VLAN Assignment on Switch Port
 ![VLAN Fix](./screenshots/vlan-fix.png)
+
+VLAN Table Verification After Restoration
+![Show VLAN Brief](./screenshots/show-vlan-brief.png)
 
 ### Fix 2 Corrected IP Addressing
 Reconfigured PC2 with a valid IP address matching the VLAN 30 subnet
