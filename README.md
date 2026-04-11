@@ -213,7 +213,7 @@ encapsulation dot1Q 10
 exit
 ```
 Screenshot Placeholder dot1Q Fix
-![dot1Q Fix](./screenshots/dot1q-fix.png)
+![dot1Q Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20025908.png)
 
 ## Key Concepts Applied
 - Structured troubleshooting using symptom based isolation
