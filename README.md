@@ -128,19 +128,19 @@ VLAN Check
 
 ### Trunk Verification
 Inspected trunk link status to verify VLAN traffic was permitted between switch and router
-
+```
 show interfaces trunk
-
+```
 Trunk Check
 ![Show Interfaces Trunk](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20213359.png)
 
 ### Router Interface Verification
 Verified router physical and subinterface status to confirm routed paths were operational
-
+```
 show ip interface brief
-
+```
 Screenshot Placeholder Router Check
-![Show IP Interface Brief](./screenshots/show-ip-interface-brief.png)
+![Show IP Interface Brief](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20213439.png)
 
 ### ACL Verification
 Reviewed ACL entries to confirm traffic filtering behavior was not the cause of unintended failures
