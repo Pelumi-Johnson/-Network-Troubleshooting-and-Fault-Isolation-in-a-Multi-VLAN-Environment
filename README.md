@@ -98,7 +98,7 @@ Wrong Gateway
 ![Wrong Gateway](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165622.png)
 
 Connectivity Failure Due to Incorrect Gateway
-![Ping Failure](./screenshots/ping-failure.png)
+![Ping Failure](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20213237.png)
 
 ### Scenario 5 Missing dot1Q Encapsulation
 Removed VLAN encapsulation from a router subinterface preventing VLAN traffic from being identified correctly
