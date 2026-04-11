@@ -206,7 +206,7 @@ Screenshot Placeholder Trunk Fix
 Updated the affected host with the correct gateway to restore routed communication
 
 Screenshot Placeholder Gateway Fix
-![Gateway Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165629.png)
+![Gateway Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20031422.png)
 
 ### Fix 5 Reapplied dot1Q Encapsulation
 Restored VLAN tagging on the router subinterface to correctly process VLAN traffic
