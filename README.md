@@ -164,7 +164,7 @@ Faults were isolated based on where communication stopped rather than through gu
 Returned PC0 interface to the intended VLAN restoring proper Layer 2 membership
 
 Corrected VLAN Assignment on Switch Port
-![VLAN Fix](./screenshots/vlan-fix.png)
+![VLAN Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20215919.png)
 
 VLAN Table Verification After Restoration
 ![Show VLAN Brief](./screenshots/show-vlan-brief.png)
