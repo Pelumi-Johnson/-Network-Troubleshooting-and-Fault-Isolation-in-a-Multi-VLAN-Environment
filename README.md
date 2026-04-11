@@ -195,7 +195,7 @@ switchport mode trunk
 exit
 ```
 Screenshot Placeholder Trunk Fix
-![Trunk Fix](./screenshots/trunk-fix.png)
+![Trunk Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20220726.png)
 
 ### Fix 4 Corrected Default Gateway
 Updated the affected host with the correct gateway to restore routed communication
