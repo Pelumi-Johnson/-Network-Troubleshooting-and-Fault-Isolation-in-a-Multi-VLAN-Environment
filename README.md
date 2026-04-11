@@ -170,7 +170,7 @@ VLAN Table Verification After Restoration
 ![Show VLAN Brief](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20215945.png)
 
 Verified End to End Connectivity Using ICMP
-![Ping Success](./screenshots/ping-success.png)
+![Ping Success](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20220028.png)
 
 ### Fix 2 Corrected IP Addressing
 Reconfigured PC2 with a valid IP address matching the VLAN 30 subnet
@@ -212,19 +212,6 @@ exit
 ```
 Screenshot Placeholder dot1Q Fix
 ![dot1Q Fix](./screenshots/dot1q-fix.png)
-
-## Validation
-Retested connectivity after each correction to confirm restoration of expected communication paths
-```
-ping 192.168.10.10
-ping 192.168.20.10
-ping 192.168.30.10
-```
-Result
-Connectivity restored across all intended VLAN paths following correction of each fault
-
-Screenshot Placeholder Final Ping Test
-![Final Ping Test](./screenshots/final-ping-test.png)
 
 ## Key Concepts Applied
 - Structured troubleshooting using symptom based isolation
