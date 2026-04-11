@@ -122,15 +122,15 @@ Checked switch VLAN membership to confirm ports were assigned to correct VLANs
 ```
 show vlan brief
 ```
-Screenshot Placeholder VLAN Check
-![Show VLAN Brief](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20021000.png)
+VLAN Check
+![Show VLAN Brief]()
 
 ### Trunk Verification
 Inspected trunk link status to verify VLAN traffic was permitted between switch and router
 
 show interfaces trunk
 
-Screenshot Placeholder Trunk Check
+Trunk Check
 ![Show Interfaces Trunk](./screenshots/show-interfaces-trunk.png)
 
 ### Router Interface Verification
@@ -147,7 +147,7 @@ Reviewed ACL entries to confirm traffic filtering behavior was not the cause of 
 show access-lists
 ```
 Screenshot Placeholder ACL Check
-![Show Access Lists](./screenshots/show-access-lists.png)
+![Show Access Lists](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20021000.png)
 
 ### Path Based Diagnosis
 Traced failures across the communication path using a structured device to device approach
