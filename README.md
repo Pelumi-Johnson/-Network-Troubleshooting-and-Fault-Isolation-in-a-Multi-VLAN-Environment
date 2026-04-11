@@ -167,7 +167,7 @@ Corrected VLAN Assignment on Switch Port
 ![VLAN Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20215919.png)
 
 VLAN Table Verification After Restoration
-![Show VLAN Brief](./screenshots/show-vlan-brief.png)
+![Show VLAN Brief](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20215945.png)
 
 Verified End to End Connectivity Using ICMP
 ![Ping Success](./screenshots/ping-success.png)
