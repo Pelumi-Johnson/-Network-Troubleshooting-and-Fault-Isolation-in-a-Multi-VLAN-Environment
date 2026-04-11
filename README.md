@@ -132,7 +132,7 @@ Inspected trunk link status to verify VLAN traffic was permitted between switch 
 show interfaces trunk
 
 Trunk Check
-![Show Interfaces Trunk](./screenshots/show-interfaces-trunk.png)
+![Show Interfaces Trunk](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20213359.png)
 
 ### Router Interface Verification
 Verified router physical and subinterface status to confirm routed paths were operational
