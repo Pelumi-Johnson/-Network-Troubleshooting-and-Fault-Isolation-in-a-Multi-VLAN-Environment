@@ -102,6 +102,8 @@ Removed VLAN encapsulation from a router subinterface preventing VLAN traffic fr
 
 Missing dot1Q
 ![Missing dot1Q](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165856.png)
+---
+![Missing dot1Q](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165856.png)
 
 ## Troubleshooting Process
 
