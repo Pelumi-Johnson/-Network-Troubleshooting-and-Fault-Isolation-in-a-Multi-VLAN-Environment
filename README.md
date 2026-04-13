@@ -72,10 +72,12 @@ Result
 PC2 could no longer communicate with intended VLAN segments due to subnet mismatch
 
 Correct IP Configuration
+
 ---
 ![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165238.png)
 
 Misconfigured IP Causing Failure
+
 ---
 ![Wrong IP](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20165323.png)
 
@@ -180,14 +182,14 @@ Verified End to End Connectivity Using ICMP
 ![Ping Success](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20220028.png)
 
 ### Fix 2 Corrected IP Addressing
-Reconfigured PC2 with a valid IP address matching the VLAN 30 subnet
+Reconfigured PC2 with a valid IP address matching the VLAN 20 subnet
 
 Example
-IP 192.168.30.10
+IP 192.168.20.4
 Subnet Mask 255.255.255.0
-Default Gateway 192.168.30.1
+Default Gateway 192.168.20.1
 
-Screenshot Placeholder IP Fix
+IP Fix
 ![IP Fix](./screenshots/ip-fix.png)
 
 ### Fix 3 Restored Trunk Link
@@ -199,13 +201,13 @@ interface fastEthernet 0/24
 switchport mode trunk
 exit
 ```
-Screenshot Placeholder Trunk Fix
+Trunk Fix
 ![Trunk Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20220726.png)
 
 ### Fix 4 Corrected Default Gateway
 Updated the affected host with the correct gateway to restore routed communication
 
-Screenshot Placeholder Gateway Fix
+Gateway Fix
 ![Gateway Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20031422.png)
 
 ### Fix 5 Reapplied dot1Q Encapsulation
@@ -217,7 +219,7 @@ interface gigabitEthernet 0/0.10
 encapsulation dot1Q 10
 exit
 ```
-Screenshot Placeholder dot1Q Fix
+dot1Q Fix
 ![dot1Q Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-11%20025908.png)
 
 ## Key Concepts Applied
