@@ -190,7 +190,7 @@ Subnet Mask 255.255.255.0
 Default Gateway 192.168.20.1
 
 IP Fix
-![IP Fix](./screenshots/ip-fix.png)
+![IP Fix](https://github.com/Pelumi-Johnson/-Network-Troubleshooting-and-Fault-Isolation-in-a-Multi-VLAN-Environment/blob/main/Screenshot%202026-04-09%20220753.png)
 
 ### Fix 3 Restored Trunk Link
 Re enabled trunking on the switch uplink to resume transport of multiple VLANs
